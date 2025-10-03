@@ -1,0 +1,23 @@
+.receipt-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.receipt-heading {
+  color: #28a745;
+}
+.receipt-detail {
+  margin: 10px 0;
+}
+.receipt-button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.receipt-button:hover {
+  background-color: #005fa3;
+}

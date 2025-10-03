@@ -1,0 +1,111 @@
+.form-container {
+  width: 400px;
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+.root{
+  width: 600px;
+}
+
+.gender-toggle {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.gender-toggle button {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s;
+}
+
+.gender-toggle button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.dob-field {
+  position: relative;
+}
+
+.age-tag {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f0f0f0;
+  color: #555;
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.mobile-field {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-field select {
+  width: 30%;
+  margin-right: 0.5rem;
+}
+
+.mobile-field span {
+  width: 15%;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.mobile-field input {
+  width: 55%;
+}
+
+.view-plans-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff5722;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-plans-btn:hover {
+  background-color: #e64a19;
+}
+.h2{
+  color: black;
+}

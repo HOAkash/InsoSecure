@@ -1,0 +1,151 @@
+/* Full screen layout */
+.admin-container {
+  min-height: 100vh;
+  width: 100%;
+  background: #f4f7fb;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.admin-container h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+.admin-container nav {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.admin-container nav a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.admin-container nav a:hover {
+  color: #1e40af;
+}
+
+/* Section titles */
+.admin-container h2 {
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, 
+table td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background: #1e40af;
+  color: #fff;
+}
+
+table tr:hover {
+  background: #f1f5f9;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:first-of-type {
+  background: #16a34a; /* Green accept */
+}
+
+button:last-of-type {
+  background: #dc2626; /* Red reject */
+}
+
+/* Add Policy form */
+.policy-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.policy-form div {
+  margin-bottom: 15px;
+}
+
+.policy-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.policy-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.policy-form button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.policy-form button:hover {
+  background: #1e40af;
+}
+
+/* Existing policy list */
+.admin-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-container ul li {
+  background: #fff;
+  margin: 8px auto;
+  padding: 12px;
+  max-width: 600px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}

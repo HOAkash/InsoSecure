@@ -1,0 +1,28 @@
+.payment-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.payment-heading {
+  color: #0077cc;
+}
+
+.payment-detail {
+  margin: 10px 0;
+}
+
+.payment-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.payment-button:hover {
+  background-color: #218838;
+}

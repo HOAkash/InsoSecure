@@ -1,0 +1,168 @@
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.plan-card {
+  background-color: #f7f9fc;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 900px;
+  height: auto;
+  margin: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: black;
+}
+
+.company-logo {
+  width: 150px;
+  height: 40px;
+}
+
+.plan-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+  color: darkcyan;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.plan-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.plan-options select,
+.plan-options button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.extra-info {
+  background-color: #d4f4dd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.plan-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount {
+  color: green;
+  font-size: 0.9rem;
+}
+
+.premium button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.premium p {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.welcome {
+  color: green;
+}
+
+.btn {
+  background-color: #ff5722;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .plan-card {
+    width: 80%;
+  }
+  
+  .plan-details {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .plan-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .company-logo {
+    width: 100px;
+    height: 30px;
+  }
+
+  .plan-details {
+    gap: 8px;
+    text-align: center;
+  }
+
+  .plan-options {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .plan-footer {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .plan-card {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .company-logo {
+    width: 80px;
+    height: 25px;
+  }
+
+  .plan-details {
+    gap: 5px;
+  }
+
+  .plan-options select,
+  .plan-options button {
+    width: 100%;
+  }
+
+  .premium button {
+    width: 100%;
+    padding: 12px;
+  }
+}
